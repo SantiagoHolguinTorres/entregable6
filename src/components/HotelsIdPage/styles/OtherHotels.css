@@ -1,0 +1,11 @@
+.other__container{   
+    background:  #BFA181;
+    border-top: 5px solid #178582;
+}
+
+.other__title{
+    text-align: center;
+    padding: 40px 0 40px 0;
+    color: #0A1828;
+    font-size: 30px;
+}

@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+
+.category__title{
+    text-align: center;
+    padding: 20px 0 40px 0;
+    color: #178582;
+    font-size: 25px;
+    background: #0A1828;
+}
+
+.category__ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #0A1828;
+    
+}
+
+.category__li{
+cursor: pointer;
+margin: 0 2em;
+color: #178582;
+    padding: 1em 0;
+    font-size: 20px;
+    transition: transform 150 ease;
+
+ 
+    &:hover{
+        transform: scale(1.05);
+    }
+
+}

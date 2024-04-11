@@ -1,0 +1,12 @@
+.review__container{
+    background: #bfa181;
+}
+
+.review__title{
+    text-align: center;
+    padding: 40px 0 40px 0;
+    color: #178582;
+    font-size: 30px;
+    border-top: 2px solid #BFA181;
+    background: #0A1828;
+}

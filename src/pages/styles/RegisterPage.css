@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+.register__card{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ height: 100vh;
+    
+   
+}
+
+.form__card{
+    width: 400px;
+    max-width: 100%;
+    padding: 20px;
+    border: 1px solid #BFA181;
+    background: #0A1828;
+    border-radius: 15px;
+}
+
+.register__title{
+    text-align: center;
+    padding: 40px 0 40px 0;
+    color: #178582;
+    font-size: 30px;
+    
+}
+
+.register__card form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .register__label{
+    position: relative;    
+    margin: 60px 20px;
+    
+}
+
+.register__label input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid #BFA181;
+    color: #178582;
+    margin-bottom: 20px;
+    transition: transform 150 ease;
+
+ 
+     &:hover{
+         transform: scale(1.05);
+     }
+
+}
+
+.register__label span{       
+    color: #178582;
+    padding: 1em 0;
+    font-size: 20px;
+   
+
+}
+
+.register__label select{
+    display: flex;    
+    padding: 0 5px;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid #BFA181;
+    color: #178582;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    transition: transform 150 ease;
+ 
+     &:hover{
+         transform: scale(1.05);
+     }
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    
+    
+}
+
+
+.btn{
+    background: #BFA181;
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 25px;
+    color: #0A1828;
+    transition: transform 150 ease;
+
+ 
+     &:hover{
+         transform: scale(1.05);
+     }
+    
+}
+
+
+

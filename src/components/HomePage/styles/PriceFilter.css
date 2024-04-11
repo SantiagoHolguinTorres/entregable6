@@ -1,0 +1,92 @@
+.price__container{
+    width: 100%;
+    background: #0A1828;
+    padding: 1em;
+}
+
+.price__title{
+    text-align: center;
+    padding: 20px 0 40px 0;
+    color: #178582;
+    font-size: 25px;
+    background: #0A1828;
+        
+}
+
+.price__form{
+display: flex;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+}
+
+.price__form label{
+    position: relative;    
+    margin: 0 20px;
+    
+}
+
+.price__form input{
+    width: 100%;    
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid #BFA181;
+    color: #178582;
+    margin-bottom: 20px;
+    transition: transform 150 ease;
+
+ 
+     &:hover{
+         transform: scale(1.05);
+     }
+}
+
+
+.price__form span{
+    color: #178582;
+    padding: 1em 0;
+    font-size: 20px;
+   
+
+}
+
+.price__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.price__button button{
+    background: #BFA181;
+    width: 500px;
+    min-width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 25px;
+    color: #0A1828;
+    transition: transform 150 ease;
+
+ 
+     &:hover{
+         transform: scale(1.05);
+     }
+}
+@media screen and (max-width: 768px) {
+
+    .price__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        }
+
+        .price__button button{
+            width: 250px;
+        }
+    
+}
