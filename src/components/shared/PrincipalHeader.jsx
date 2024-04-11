@@ -22,7 +22,7 @@ const handlecloseNav = () => {
         <h1 className="title">
           <Link to="/">Stay Here Tonight</Link>
         </h1>
-      </nav>
+      </nav> 
       <button className="cabecera__button">
       <i onClick={toggleNav} className={`bx bx-menu celular `}></i>
       </button>
